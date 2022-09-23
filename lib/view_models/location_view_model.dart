@@ -6,6 +6,7 @@ import 'package:working_with_location/data/repositories/repository.dart';
 class LocationViewModel extends ChangeNotifier {
   LocationViewModel({required this.locationRepository});
 
+
   final LocationRepository locationRepository;
 
   String errorText = "";

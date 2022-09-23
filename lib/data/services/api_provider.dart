@@ -10,7 +10,7 @@ class ApiProvider {
   Future<String> getLocationName(String geoCodeText) async {
     late Response response;
     Map<String, String> qParams = {
-      'apikey': 'your Api key',
+      'apikey': '98766a71-a866-47bf-8184-2f9cb48187d2',
       'geocode': geoCodeText,
       'lang': 'uz_UZ',
       'format': 'json',
